@@ -24,6 +24,9 @@
     h1 { margin: 0.25rem 0 0.75rem; font-size: clamp(2.5rem, 9vw, 5rem); line-height: 1; }
     .description { max-width: 38rem; font-size: 1.125rem; }
     nav { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 2rem; }
+    .source-code { margin-top: 2rem; }
+    .source-code h2 { margin: 0 0 0.5rem; font-size: 1rem; font-weight: 600; }
+    .source-code nav { margin-top: 0; }
     a { color: #ffad74; }
     .demo {
       padding: 0.6rem 1rem;
@@ -43,12 +46,17 @@
       Explore fire activity over time. EMBERLINE brings MODIS and VIIRS satellite hotspot
       detections onto a common scale and presents them in a calendar, maps, and charts.
     </p>
-    <nav aria-label="Project links">
+    <nav aria-label="Demo">
       <a class="demo" href="https://emberline-9sd.pages.dev/en/calendar/">Open the demo</a>
-      <a href="https://github.com/Nasa-Planetarium/Planetarium-AI">AI</a>
-      <a href="https://github.com/Nasa-Planetarium/Planetarium-Backend">Backend</a>
-      <a href="https://github.com/Nasa-Planetarium/Planetarium-Frontend">Frontend</a>
     </nav>
+    <section class="source-code" aria-labelledby="source-code-heading">
+      <h2 id="source-code-heading">Source code</h2>
+      <nav aria-label="Source code repositories">
+        <a href="https://github.com/Nasa-Planetarium/Planetarium-AI">AI</a>
+        <a href="https://github.com/Nasa-Planetarium/Planetarium-Backend">Backend</a>
+        <a href="https://github.com/Nasa-Planetarium/Planetarium-Frontend">Frontend</a>
+      </nav>
+    </section>
   </main>
 </body>
 </html>
