@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EMBERLINE by Team Planetarium for NASA Space Apps Challenge 2026 in Seoul.">
+  <title>EMBERLINE | Team Planetarium</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #141311;
+      color: #f7f2eb;
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: min(100% - 3rem, 46rem);
+      margin: 0 auto;
+      padding: clamp(4rem, 15vh, 9rem) 0 4rem;
+      border-top: 3px solid #ffad74;
+    }
+    .team { margin: 0; color: #ffad74; font-weight: 650; }
+    h1 { margin: 0.25rem 0 0.75rem; font-size: clamp(2.5rem, 9vw, 5rem); line-height: 1; }
+    .description { max-width: 38rem; font-size: 1.125rem; }
+    nav { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 2rem; }
+    a { color: #ffad74; }
+    .demo {
+      padding: 0.6rem 1rem;
+      background: #ffad74;
+      color: #141311;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="team">Team Planetarium · NASA Space Apps Challenge 2026 · Seoul</p>
+    <h1>EMBERLINE</h1>
+    <p class="description">
+      Explore fire activity over time. EMBERLINE brings MODIS and VIIRS satellite hotspot
+      detections onto a common scale and presents them in a calendar, maps, and charts.
+    </p>
+    <nav aria-label="Project links">
+      <a class="demo" href="https://emberline-9sd.pages.dev/en/calendar/">Open the demo</a>
+      <a href="https://github.com/Nasa-Planetarium">Team and source code</a>
+    </nav>
+  </main>
+</body>
+</html>
